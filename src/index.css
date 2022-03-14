@@ -68,7 +68,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #e3405f;
 }
-/* Media Query */
 @media (max-width: 1380px) {
   html,
   body {
