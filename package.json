@@ -1,7 +1,14 @@
 {
   "private": true,
-  "name": "personalPortfolio",
-  "homepage": "http://vedanshv.tech/",
+  "name": "ironmarvel-portfolio",
+  "description": "",
+  "license": "MIT",
+  "author": "Iron Marvel @ Mustafa Mahmood  <mustech986@gmail.com> (https://ironmarvel.github.io)",
+  "homepage": "https://ironmarvel.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IronMarvel/ironmarvel.github.io.git"
+  },
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",

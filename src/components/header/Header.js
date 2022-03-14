@@ -86,29 +86,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="ec"
-                to="/education"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Education and Certifications
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="xp"
-                to="/experience"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Experience
+                About
               </NavLink>
             </li>
             <li>
@@ -124,13 +102,46 @@ function Header(props) {
             </li>
             <li>
               <NavLink
+                className="homei"
+                to="/home"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Research
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="ec"
+                to="/education"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Education
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="xp"
+                to="/experience"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Friends
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 className="cr"
                 to="/contact"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Reach
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>

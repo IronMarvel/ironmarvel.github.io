@@ -1,35 +1,26 @@
-/* Change this file to get your personal Porfolio */
-
-// Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  isSplash: true,
+  useCustomCursor: true,
+  googleTrackingID: "G-XP4Q6W9RFC",
 };
 
-//Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Vedansh",
-  logo_name: "vedansh.v()",
-  // nickname: "harry / picleric",
-  full_name: "Vedansh Vijaywargiya",
+  title: "I am Iron Marvel",
+  title2: "Mustafa",
+  logo_name: "Iron Marvel",
+  nickname: "Iron Marvel",
+  full_name: "Mustafa Mahmood",
   subTitle:
     "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
-  resumeLink:
-    "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
-  mail: "mailto:im.vedanshvijay2002@gmail.com",
+  resumeLink: "",
+  mail: "mailto:mustech986@gmail.com",
 };
 
 const socialMediaLinks = {
-  /* Your Social Media Link */
-  github: "https://github.com/vvHacker007/",
-  linkedin: "https://www.linkedin.com/in/vedansh-vijaywargiya/",
-  gmail: "im.vedanshvijay2002@gmail.com",
-  // gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/vedansh.vijaywargiya/",
-  twitter: "https://twitter.com/vedansh_v_/",
-  instagram: "https://www.instagram.com/vedv_2002/",
+  github: "https://github.com/IronMarvel",
+  linkedin: "https://www.linkedin.com/in/ironmarvel/",
+  gmail: "mustech986@gmail.com",
+  gitlab: "https://gitlab.com/IronMarvel",
 };
 
 const skills = {
@@ -115,20 +106,27 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Android",
-        //   fontAwesomeClassname: "simple-icons:android",
-        //   style: {
-        //     color: "#3DDC84",
-        //   },
-        // },
+        {
+          skillName: "jQuery",
+          fontAwesomeClassname: "simple-icons:jquery",
+          style: {
+            color: "#0865A6",
+          },
+        },
+        {
+          skillName: "Wordpress",
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: {
+            color: "#207297",
+          },
+        },
+        {
+          skillName: "Apache",
+          fontAwesomeClassname: "simple-icons:apache",
+          style: {
+            color: "#CA1A22",
+          },
+        },
         {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
@@ -136,20 +134,20 @@ const skills = {
             color: "#f89820",
           },
         },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Dart",
+          fontAwesomeClassname: "simple-icons:dart",
+          style: {
+            color: "#29B0EE",
+          },
+        },
         {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
@@ -164,27 +162,27 @@ const skills = {
             color: "#4479A1",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Wordpress",
-        //   fontAwesomeClassname: "simple-icons:wordpress",
-        //   style: {
-        //     color: "#207297",
-        //   },
-        // },
-        // {
-        //   skillName: "Apache",
-        //   fontAwesomeClassname: "simple-icons:apache",
-        //   style: {
-        //     color: "#CA1A22",
-        //   },
-        // },
+        {
+          skillName: "jQuery",
+          fontAwesomeClassname: "simple-icons:jquery",
+          style: {
+            color: "#0865A6",
+          },
+        },
+        {
+          skillName: "Wordpress",
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: {
+            color: "#207297",
+          },
+        },
+        {
+          skillName: "Apache",
+          fontAwesomeClassname: "simple-icons:apache",
+          style: {
+            color: "#CA1A22",
+          },
+        },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -266,13 +264,13 @@ const skills = {
             color: "#47A248",
           },
         },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
@@ -288,18 +286,16 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SRM Institute of Science and Technology",
-      subtitle: "Bachelors in Computer Science and Engineering",
-      logo_path: "SRM_Logo.png",
+      title: "St. Joseph's College, Allahabad",
+      subtitle: "Currently studying in my sophomore year here.",
+      logo_path: "emblem.png",
       alt_name: "SSEC",
-      duration: "2019 - 2023",
+      duration: "2010 - 2022",
       descriptions: [
-        "⚡  I'm currently pursuing my Bachelors in Computer Science and Engineering.",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I am currently a sophomore studying in this school.",
+        "⚡ I ",
       ],
-      website_link: "https://www.srmist.edu.in/",
+      website_link: "https://www.sjcallahabad.org/",
     },
   ],
 };
@@ -421,7 +417,6 @@ const certifications = {
   ],
 };
 
-// Experience Page
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
